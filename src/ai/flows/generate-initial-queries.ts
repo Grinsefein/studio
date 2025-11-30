@@ -48,21 +48,8 @@ const prompt = ai.definePrompt({
   2.  Consider different aspects of the subject, such as personal details, professional background, interests, and potential online presence.
   3.  Include queries that could reveal social media accounts, public records, news articles, and other relevant online content.
   4.  Focus on generating specific and actionable search queries rather than broad or generic terms.
-
-  Output format:
-  - Each query should be a single line in the format: "query".
-  - Return the queries as a JSON array of strings.
-
-  Example:
-  [
-  "subject's full name",
-  "subject's known aliases",
-  "subject's current city of residence",
-  "subject's professional affiliations",
-  "subject's social media profiles"
-  ]
-
-  Now, generate the initial search queries for the subject:`,
+  
+  Now, generate the initial search queries for the subject and return them as a JSON array of strings.`,
 });
 
 const generateInitialQueriesFlow = ai.defineFlow(
