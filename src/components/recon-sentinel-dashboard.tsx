@@ -11,6 +11,7 @@ import {
   Loader2,
   MapPin,
   Search,
+  ShieldCheck,
   Sparkles,
   User,
   Users,
